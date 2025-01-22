@@ -1,11 +1,10 @@
 package zebastor.ArRestaurant.modelos;
 
 import jakarta.persistence.*;
-import org.springframework.boot.autoconfigure.web.WebProperties;
 
 @Entity
-@Table(name = "categoria_plato")
-public class Categoria_plato {
+@Table(name = "categoriaplato")
+public class CategoriapPlatoModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -14,10 +13,10 @@ public class Categoria_plato {
     @Column(name = "nombre", nullable = false)
     private String nombre;
 
-    public Categoria_plato() {
+    public CategoriapPlatoModel() {
     }
 
-    public Categoria_plato(Integer idcategoria, String nombre) {
+    public CategoriapPlatoModel(Integer idcategoria, String nombre) {
         this.idcategoria = idcategoria;
         this.nombre = nombre;
     }

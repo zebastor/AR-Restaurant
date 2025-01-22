@@ -1,0 +1,18 @@
+<h2>Lista empleados</h2>
+<table class="table table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>Id</th>
+            <th>nombre</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+    
+            <tr *ngFor="let categoria of categoriaPlato">
+             <td>{{ categoria.idcategoria }}</td> 
+             <td>{{categoria.nombre}}</td>
+            
+            </tr>
+    </tbody>
+</table>
