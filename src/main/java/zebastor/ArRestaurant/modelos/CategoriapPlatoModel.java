@@ -3,12 +3,12 @@ package zebastor.ArRestaurant.modelos;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "categoriaplato")
+@Table(name = "categoriat")
 public class CategoriapPlatoModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer idcategoria;
+    private Integer id;
 
     @Column(name = "nombre", nullable = false)
     private String nombre;
@@ -16,17 +16,17 @@ public class CategoriapPlatoModel {
     public CategoriapPlatoModel() {
     }
 
-    public CategoriapPlatoModel(Integer idcategoria, String nombre) {
-        this.idcategoria = idcategoria;
+    public CategoriapPlatoModel(Integer id, String nombre) {
+        this.id = id;
         this.nombre = nombre;
     }
 
-    public Integer getIdcategoria() {
-        return idcategoria;
+    public Integer getId() {
+        return id;
     }
 
-    public void setIdcategoria(Integer idCategoria) {
-        this.idcategoria = idCategoria;
+    public void setId(Integer id) {
+        this.id = id;
     }
 
     public String getNombre() {
