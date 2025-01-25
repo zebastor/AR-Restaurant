@@ -1,0 +1,9 @@
+zebastor\ArRestaurant\WebConfig.class
+zebastor\ArRestaurant\controlador\CategoriaPlatoController.class
+zebastor\ArRestaurant\modelos\PlatoModel.class
+zebastor\ArRestaurant\modelos\SubCatModel.class
+zebastor\ArRestaurant\modelos\CategoriapPlatoModel.class
+zebastor\ArRestaurant\ArRestaurantApplication.class
+zebastor\ArRestaurant\repositorios\PlatoRepo.class
+zebastor\ArRestaurant\repositorios\CategoriaPlatoRepo.class
+zebastor\ArRestaurant\repositorios\SubCatRepo.class
