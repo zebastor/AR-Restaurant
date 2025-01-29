@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: zebastor.ArRestaurant.ArRestaurantApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.992 s -- in zebastor.ArRestaurant.ArRestaurantApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.05 s -- in zebastor.ArRestaurant.ArRestaurantApplicationTests
